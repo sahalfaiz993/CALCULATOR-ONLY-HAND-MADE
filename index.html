@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>calculator of sahalfaiz</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<style>
+   .buttons{
+      font-size: 40px;
+      color: red;
+      background-color: darkblue;
+      border-radius: 0px 0px 10px 10px ;
+      
+   }
+</style>
+<body>
+   <h1 class="name"> <b> H.M.sahal Calculator</b> </h1>
+
+
+   <div class="center">
+      <div name="forms">
+         <input type="button"  id="result" />
+         <button onclick="clearscreen()"    style="font-size: 20px;  background-color:gray"id="buttons">Clear</button>
+         <!-- <button onclick="clearOneScreen()" id="buttons">C</button> -->
+         <div class="buttons">
+            <button id="buttons  " style="font-size: 20px; background-color: " onclick="display('7')">7</button>
+            <button id="buttons" style="font-size: 20px; " onclick="display('8')">8</button>
+            <button id="buttons" style="font-size: 20px;" onclick="display('9')">9</button>
+            <button id="buttons" style="font-size: 20px;" onclick="display('/')">/</button> <br>
+            <button id="buttons" style="font-size: 20px;" onclick="display('4')">4 </button>
+            <button id="buttons" style="font-size: 20px;" onclick="display('5')">5</button>
+            <button id="buttons" style="font-size: 20px;" onclick="display('6')">6</button>
+            <button id="buttons" style="font-size: 20px;" onclick="display('*')">*</button><br>
+            <button id="buttons" style="font-size: 20px;" onclick="display('1')">1</button>
+            <button id="buttons" style="font-size: 20px;" onclick="display('2')">2</button>
+            <button id="buttons" style="font-size: 20px;" onclick="display('3')">3</button>
+            <button id="buttons" style="font-size: 20px;" onclick="display('-')">-</button><br>
+            <button id="buttons" style="font-size: 25px;" onclick="display('.')">.</button>
+            <button id="buttons" style="font-size: 20px;" style="font-size: 20px;" onclick="display('0')">0</button>
+            <button id="buttons" style="font-size: 20px;" onclick="display('+')">+</button>
+            <button id="buttons" style="font-size: 20px;  background-color: red" onclick="display('C')">C</button><br>
+            <button id="buttons " style="font-size: 20px; background-color: red"onclick="calculate()">=</button>
+         </div>
+      
+      </div>
+
+      <script src="main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    /* padding: 0; */
+    outline: none;
+    box-sizing: border-box;
+  }
+  body{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+      background-color:black ;
+    background-image: url(./booble.jfif);
+     background-repeat: no-repeat;
+     background-size: cover;
+    }
+    
+  .center{
+    
+    width: 350px;
+    background: rgb(12, 166, 227);
+    border-radius: 40px;
+  }
+  input[type="button"]{
+    height: 30px;
+    width: 200px;
+    margin-top: 40px;
+    border-radius: 1px;
+    border: 1px solid #e1e7ea;
+    color: black;
+    font-size: x-large;
+    color: #cf1818;
+    
+   
+  }
+   form.buttons{
+    width: 300px;
+    margin: 10px 25px 0 25px;
+    /* padding: 10px 0; */
+  }
+  .buttons[type="buttons"]{
+    width: 58px;
+    height: 55px;
+    margin: 5px;
+    font-size: 22px;
+    line-height: 55px;
+    border-radius: 3px;
+    border: 1px solid #d9d9d9;
+    background: linear-gradient(#ea1414, #cf1818);
+    font-size: x-large;
+    /* scroll-padding-inline-start: 10px; */
+  }
+  input[type="button"]:hover{
+    /* transition: .6s; */
+    background: linear-gradient(#bfbfbf, #d9d9d9);
+  }
+  
+  .center{
+    width: 250px;
+    margin: 10px 0 10px 0;
+    font-size: 40px;
+    color: rgb(207, 26, 26);
+    background: #0b9add;
+    border: 1px solid #0080a7;
+    text-shadow: tomato;
+  }
+  .name{
+    /* text-align: center; */
+    text-shadow: 100px;
+    position: absolute;
+    left: 40%;
+    top: 5%;
+  }
+  .name:hover{
+    color: black;
+    background-image: url(./sahal.webp);
+    background-size: cover;
+    /* width: 180px; */
+    /* height: 70px; */
+    font-size: 190%;
+    background-repeat: no-repeat;
+  }
